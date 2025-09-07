@@ -1,0 +1,1 @@
+window.pwstrength_profile = { mode: 'css' };

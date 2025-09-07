@@ -1,0 +1,18 @@
+/* Skin override for pwstrength_meter — ~25% of page width */
+.pwstrength-meter{
+  display:block !important;
+  clear:both !important;
+  width: min(25vw, 100%) !important;
+  max-width: 100% !important;
+  margin-top: 4px !important;
+}
+.pwstrength-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:4px; gap:8px; }
+.pwstrength-bar{ width:100%; }
+
+/* Shorten password fields on family skins */
+input[name="_curpasswd"],
+input[name="_newpasswd"],
+input[name="_confpasswd"]{
+  width:130px !important;
+  max-width:130px !important;
+}

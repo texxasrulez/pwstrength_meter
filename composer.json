@@ -1,0 +1,29 @@
+{
+  "name": "roundcube/pwstrength_meter",
+  "type": "roundcube-plugin",
+  "description": "Password strength meter for Roundcube's password screen.",
+    "homepage": "https://github.com/texxasrulez/pwstrength_meter",
+	"support": {
+		"issues": "https://github.com/texxasrulez/pwstrength_meter/issues",
+		"source": "https://github.com/texxasrulez/pwstrength_meter"
+  },
+  "license": "GPL-3.0",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Gene Hawkins",
+            "email": "texxasrulez@yahoo.com",
+            "role": "Lead"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "roundcube/plugin-installer": ">=0.1.4"
+    }
+}
