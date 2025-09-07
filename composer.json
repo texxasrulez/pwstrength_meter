@@ -1,5 +1,5 @@
 {
-  "name": "roundcube/pwstrength_meter",
+  "name": "texxasrulez/pwstrength_meter",
   "type": "roundcube-plugin",
   "description": "Password strength meter for Roundcube's password screen.",
     "homepage": "https://github.com/texxasrulez/pwstrength_meter",
