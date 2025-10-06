@@ -40,15 +40,15 @@ class pwstrength_meter extends rcube_plugin
             // Pass environment flags/selectors to JS
             $this->rc->output->set_env('pwstrength_meter_enabled', true);
             
-$this->rc->output->set_env('pwstrength_meter_labels', array(
-    'title'   => $this->gettext('pwstrength_title'),
-    'veryweak'=> $this->gettext('veryweak'),
-    'weak'    => $this->gettext('weak'),
-    'fair'    => $this->gettext('fair'),
-    'strong'  => $this->gettext('strong'),
-    'verystrong' => $this->gettext('verystrong'),
-    'note_nextcloud' => $this->gettext('note_nextcloud'),
-));
-}
+		$this->rc->output->set_env('pwstrength_meter_labels', array(
+			'title'   => $this->gettext('pwstrength_title'),
+			'veryweak'=> $this->gettext('veryweak'),
+			'weak'    => $this->gettext('weak'),
+			'fair'    => $this->gettext('fair'),
+			'strong'  => $this->gettext('strong'),
+			'verystrong' => $this->gettext('verystrong'),
+			'note_nextcloud' => $this->gettext('note_nextcloud'),
+		));
+		}
     }
 }
