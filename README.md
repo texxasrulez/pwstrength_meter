@@ -43,3 +43,6 @@ You can tweak colors and spacing in `pwstrength_meter.css`. The JS heuristic is 
 ## Localization
 Add files under `localization/xx_XX.inc` with a `$labels` array mirroring `en_US.inc` keys.
 
+**Screenshot**
+
+![Password Strength Meter](images/pwstrength-meter-screenshot.png?raw=true "Password Strength Meter")
