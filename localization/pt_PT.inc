@@ -1,6 +1,6 @@
 <?php
 $labels = array();
-$labels['pwstrength_title'] = 'Força da senha';
+$labels['pwstrength_title'] = 'Força da palavra-passe';
 $labels['veryweak'] = 'Muito fraco';
 $labels['weak'] = 'Fraco';
 $labels['fair'] = 'Justo';
